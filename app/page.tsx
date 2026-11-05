@@ -19,7 +19,7 @@ export default function Page() {
   return (
     <main className="site-shell">
       <nav className="navbar" aria-label="Navegação principal">
-        <a className="brand" href="#top" aria-label="Wing, início"><span className="brand-mark"><img src="/adaptive-icon.png" alt="" /></span><span>wing</span></a>
+        <a className="brand" href="#top" aria-label="Wing, início"><span className="brand-mark"><img src="/adaptive-icon.png" alt="" /></span><span>Wing</span></a>
         <div className="nav-links">
           <a href="#wing">O Wing</a><a href="#como-funciona">Como funciona</a><a href="#beneficios">Benefícios</a><a href="#para-quem">Para quem é</a>
         </div>
@@ -38,7 +38,7 @@ export default function Page() {
         <div className="hero-product" aria-label="Prévia da interface do Wing">
           <div className="float-card float-card-top"><span className="mini-star">★</span><div><strong>Nova conquista!</strong><small>Primeira descoberta</small></div></div>
           <div className="app-window">
-            <div className="app-top"><span className="brand-mini">wing</span><span className="app-profile"><img src="/adaptive-icon.png" alt="Ícone do Wing" /></span></div>
+            <div className="app-top"><span className="brand-mini">Wing</span><span className="app-profile"><img src="/adaptive-icon.png" alt="Ícone do Wing" /></span></div>
             <div className="app-greeting"><small>Olá, Lia</small><h3>Vamos continuar?</h3></div>
             <div className="path-label"><span>Sua trilha</span><b>35%</b></div><div className="progress"><i /></div>
             <div className="lesson-path"><div className="path-line" /><div className="lesson active"><span>✦</span><small>Começo</small></div><div className="lesson"><span>●</span><small>Descoberta</small></div><div className="lesson"><span>★</span><small>Próximo</small></div><div className="lesson locked"><span>⌁</span><small>Em breve</small></div></div>
@@ -61,7 +61,7 @@ export default function Page() {
 
       <section className="final-cta section" id="conheca"><div className="final-ornament">✦</div><p className="eyebrow">Sua jornada começa aqui</p><h2>O próximo passo da aprendizagem<br /><em>começa aqui.</em></h2><p>Descubra como o Wing pode transformar a jornada de aprendizado em uma experiência mais leve, divertida e significativa.</p><a className="button button-dark" href="#top">Conheça o Wing <Arrow /></a></section>
 
-      <footer className="footer"><div><a className="brand" href="#top"><span className="brand-mark"><img src="/adaptive-icon.png" alt="" /></span><span>wing</span></a><p>Aprendizado contínuo<br />para jornadas únicas.</p></div><div className="footer-links"><div><small>Explore</small><a href="#wing">O Wing</a><a href="#como-funciona">Como funciona</a><a href="#beneficios">Benefícios</a></div><div><small>Institucional</small><a href="#para-quem">Para quem é</a><a href="#conheca">Contato</a><a href="#conheca">Privacidade</a></div><div><small>Legal</small><a href="#conheca">Termos de uso</a><a href="#conheca">Acessibilidade</a></div></div><div className="footer-bottom"><span>© 2026 Wing. Uma jornada de cada vez.</span><span>Feito com cuidado.</span></div></footer>
+      <footer className="footer"><div><a className="brand" href="#top"><span className="brand-mark"><img src="/adaptive-icon.png" alt="" /></span><span>Wing</span></a><p>Aprendizado contínuo<br />para jornadas únicas.</p></div><div className="footer-links"><div><small>Explore</small><a href="#wing">O Wing</a><a href="#como-funciona">Como funciona</a><a href="#beneficios">Benefícios</a></div><div><small>Institucional</small><a href="#para-quem">Para quem é</a><a href="#conheca">Contato</a><a href="#conheca">Privacidade</a></div><div><small>Legal</small><a href="#conheca">Termos de uso</a><a href="#conheca">Acessibilidade</a></div></div><div className="footer-bottom"><span>© 2026 Wing. Uma jornada de cada vez.</span><span>Feito com cuidado.</span></div></footer>
     </main>
   )
 }
